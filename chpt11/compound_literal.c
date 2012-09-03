@@ -18,3 +18,5 @@ int main () {
   // With compound literals we can do a one liner (dont forget the cast)
   printf("sum: %g\n", sum((double[]) { 1.1, 2.2, 3.3, NAN }));
 }
+
+// I would call this anonymous literal
